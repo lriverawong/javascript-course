@@ -1,5 +1,9 @@
 // WINDOW METHODS / OBJECTS / PROPERTIES
+console.log("tester");
+// the same as above
+window.console.log(123);
 
+/*
 // Alert
 //alert('Hello World');
 
@@ -13,13 +17,15 @@
 // } else {
 //   console.log('NO');
 // }
-
+*/
 let val;
 
 // Outter height and width
 val = window.outerHeight;
+console.log(val);
 val = window.outerWidth;
-
+console.log(val);
+/*
 // Inner height and width
 val = window.innerHeight;
 val = window.innerWidth;
@@ -57,3 +63,4 @@ val = window.navigator.language;
 
 
 console.log(val);
+*/
